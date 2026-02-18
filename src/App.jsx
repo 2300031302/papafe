@@ -106,7 +106,7 @@ function Dashboard() {
 function HomePage({ onShowAuth }) {
   return (
     <div className="home-page" style={{textAlign: 'center', marginTop: 48}}>
-      <h1 style={{fontSize: '2.2rem', marginBottom: 12, color: '#000'}}>Welcome to FitTrack!</h1>
+      <h1 style={{fontSize: '2.2rem', marginBottom: 12, color: '#000'}}>Welcome to health tracker!</h1>
       <p style={{fontSize: '1.15rem', color: '#555', maxWidth: 500, margin: '0 auto 32px'}}>
         FitTrack is your personal fitness tracking application. Monitor your activity, connect your Google Fit account, and stay motivated on your health journey. Sign up or log in to get started!
       </p>
