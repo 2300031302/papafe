@@ -108,9 +108,9 @@ function HomePage({ onShowAuth }) {
     <div className="home-page" style={{textAlign: 'center', marginTop: 48}}>
       <h1 style={{fontSize: '2.2rem', marginBottom: 12, color: '#000'}}>health tracker by Vijayaraju</h1>
       <p style={{fontSize: '1.15rem', color: '#555', maxWidth: 600, margin: '0 auto 24px'}}>
-        Welcome to FitTrack, your trusted fitness tracking application hosted at <b>vijayaraju.in</b>.<br /><br />
-        <b>App Functionality:</b> FitTrack helps you monitor your daily activity, track your progress, and stay motivated. You can connect your Google Fit account to sync your fitness data and view personalized insights.<br /><br />
-        <b>Why We Request User Data:</b> To provide personalized fitness tracking and insights, FitTrack requests access to your Google Fit data. Your data is used solely to display your activity and progress within the app. We do not share your data with third parties.<br /><br />
+        Welcome to health tracker, your trusted fitness tracking application hosted at <b>vijayaraju.in</b>.<br /><br />
+        <b>App Functionality:</b> health tracker helps you monitor your daily activity, track your progress, and stay motivated. You can connect your Google Fit account to sync your fitness data and view personalized insights.<br /><br />
+        <b>Why We Request User Data:</b> To provide personalized fitness tracking and insights, health tracker requests access to your Google Fit data. Your data is used solely to display your activity and progress within the app. We do not share your data with third parties.<br /><br />
         <b>Transparency:</b> Your privacy is important to us. Please review our <a href="https://vijayaraju.in/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> for full details on how your data is handled.<br /><br />
         For any questions, contact us at <a href="mailto:vijaya15082005@gmail.com">vijaya15082005@gmail.com</a>.<br /><br />
         <b>Note:</b> This homepage and privacy policy are hosted on our verified domain (<b>vijayaraju.in</b>) and are visible to all users without login.
