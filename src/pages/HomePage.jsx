@@ -51,6 +51,7 @@ export default function HomePage() {
         document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' });
     };
 
+
     return (
         <div className="home-page">
             {/* Animated background */}
@@ -69,6 +70,8 @@ export default function HomePage() {
                 <h1 className="hero-title">
                     Health<span className="hero-accent">Tracker</span>
                 </h1>
+
+
                 <p className="hero-subtitle">
                     Your all-in-one personal fitness companion.
                     <br />
@@ -88,7 +91,19 @@ export default function HomePage() {
                     <span className="badge-dot" />
                     Free &middot; No credit card required
                 </div>
+                {/* ─── ABOUT THIS PROJECT ─── */}
+                <section className="about-section" style={{ marginBottom: '2rem', background: '#222', padding: '1.5rem', borderRadius: '1rem', maxWidth: 700, margin: '2rem auto 0 auto', boxShadow: '0 2px 12px #0002' }}>
+                    <h2 style={{ color: '#00e676', marginBottom: '0.5rem' }}>About This Project</h2>
+                    <p style={{ fontSize: '1.1rem', color: '#fff', lineHeight: 1.7 }}>
+                        <b>Health Tracker</b> is a step-tracking fitness web application developed for college academic purposes. It helps you monitor your daily steps and calories burnt, using data from your mobile device via the <b>Google Fit API</b>.<br /><br />
+                        <b>Google Fit data is accessed only after you grant explicit permission through Google OAuth.</b> Your step count and calories burnt are used solely to display your activity stats within the app.<br /><br />
+                        This project is strictly non-commercial and will be active for approximately <b>6 months</b> for academic evaluation. No data is sold or shared with third parties.<br /><br />
+                        For more details, please review our <a href="/privacy-policy" style={{ color: '#ffd700', textDecoration: 'underline' }}>Privacy Policy</a> and <a href="/terms-of-service" style={{ color: '#ffd700', textDecoration: 'underline' }}>Terms of Service</a>.
+                    </p>
+                </section>
             </section>
+
+            
 
             {/* ─── FEATURES ─── */}
             <section id="features" className="features-section">
@@ -123,6 +138,10 @@ export default function HomePage() {
             {/* ─── FOOTER ─── */}
             <footer className="home-footer">
                 <span>&copy; {new Date().getFullYear()} Health Tracker</span>
+                <span style={{ marginLeft: 16 }}>
+                    <a href="/privacy-policy" style={{ color: '#ffd700', textDecoration: 'underline', marginRight: 12 }}>Privacy Policy</a>
+                    <a href="/terms-of-service" style={{ color: '#ffd700', textDecoration: 'underline' }}>Terms of Service</a>
+                </span>
             </footer>
         </div>
     );

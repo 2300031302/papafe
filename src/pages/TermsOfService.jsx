@@ -23,18 +23,19 @@ const TermsOfService = () => {
 
                 <h2>2. Description of Service</h2>
                 <ul>
-                    <li>Step tracking</li>
-                    <li>Google Fit integration for steps</li>
+                    <li>Step tracking (step count and calories burnt)</li>
+                    <li>Google Fit integration for step data (only after user consent)</li>
                     <li>Activity display and history</li>
                 </ul>
-                <p>This service is developed solely as a college academic project.</p>
+                <p>This service is developed solely as a college academic project. It is strictly non-commercial and will be active for approximately <b>6 months</b> for academic evaluation. The service may be discontinued after project completion.</p>
 
                 <h2>3. User Responsibilities</h2>
                 <ul>
                     <li>Provide accurate account information</li>
                     <li>Keep your login credentials secure</li>
-                    <li>Use the platform legally</li>
+                    <li>Use the platform legally and responsibly</li>
                     <li>Not attempt unauthorized access or hacking</li>
+                    <li>Respect the academic nature and non-commercial intent of the project</li>
                 </ul>
                 <p>
                     <b>You must not:</b>
@@ -43,6 +44,7 @@ const TermsOfService = () => {
                     <li>Use the website for illegal purposes</li>
                     <li>Attempt to manipulate or damage the database</li>
                     <li>Interfere with Google Fit integration</li>
+                    <li>Share collected data with others or use it for commercial purposes</li>
                 </ul>
 
                 <h2>4. Google Fit Integration</h2>
@@ -86,13 +88,11 @@ const TermsOfService = () => {
                     <br />
                     The service is provided “as is”.
                     <br />
-                    We are not liable for data loss.
-                    <br />
-                    We are not liable for downtime.
-                    <br />
-                    We are not responsible for health outcomes.
+                    We are not liable for data loss, downtime, or health outcomes.
                     <br />
                     Use the platform at your own risk.
+                    <br />
+                    The project team reserves the right to discontinue the service and delete all data after the academic evaluation period (approx. 6 months).
                 </p>
 
                 <h2>9. Governing Law & Jurisdiction</h2>

@@ -27,55 +27,39 @@ const PrivacyPolicy = () => {
                 </ul>
 
                 <h2>2. Information We Collect</h2>
-                <p>
-                    <b>A. Information Provided by Users</b>
-                </p>
                 <ul>
-                    <li>Username</li>
-                    <li>Email Address</li>
-                    <li>Password (stored in encrypted format)</li>
-                    <li>Steps data</li>
-                    <li>Calories data (if provided manually)</li>
+                    <li><b>Step count</b> and <b>calories burnt</b> (from Google Fit, only after you grant permission)</li>
+                    <li>Username, email address, password (encrypted)</li>
                 </ul>
-                <p>
-                    <b>B. Data from Google Fit</b>
+                <p style={{ color: '#ffd700' }}>
+                    <b>Google Fit data is accessed only after you grant explicit consent via Google OAuth.</b>
                 </p>
                 <ul>
-                    <li>Step count data may be accessed through Google Fit APIs</li>
-                    <li>We only access step-related information necessary for tracking</li>
-                    <li>We do not collect unnecessary health or personal information.</li>
+                    <li>No other Google APIs are used.</li>
+                    <li>No other health or personal data is collected.</li>
                 </ul>
 
                 <h2>3. How We Use Your Information</h2>
                 <ul>
-                    <li>Create and manage your account</li>
-                    <li>Display step tracking data</li>
-                    <li>Sync steps from Google Fit</li>
-                    <li>Store and maintain activity records</li>
-                    <li>Improve project functionality</li>
+                    <li>Display your daily step count and calories burnt</li>
+                    <li>Sync step data from Google Fit (with your consent)</li>
+                    <li>Show activity stats within the app</li>
                 </ul>
-                <p style={{ color: '#ffd700' }}>We do not sell, rent, or trade your personal data.</p>
+                <p style={{ color: '#ffd700' }}>We do not sell, rent, share, or trade your personal data with anyone.</p>
 
                 <h2>4. Data Storage & Security</h2>
                 <ul>
-                    <li>Data is stored in MongoDB database</li>
+                    <li>Data is stored securely on a server with encryption</li>
                     <li>Passwords are encrypted using secure hashing methods</li>
                     <li>Access to the database is restricted</li>
                     <li>Basic security measures are implemented</li>
                 </ul>
-                <p>However, as this is an academic project, absolute security cannot be guaranteed.</p>
+                <p>As this is an academic project, absolute security cannot be guaranteed.</p>
 
                 <h2>5. Data Sharing</h2>
                 <ul>
-                    <li>We do not share personal data with third parties.</li>
-                    <li>
-                        Data may only be disclosed:
-                        <ul>
-                            <li>If required by Indian law</li>
-                            <li>If necessary for academic review</li>
-                            <li>If required for resolving technical issues</li>
-                        </ul>
-                    </li>
+                    <li>We do <b>not</b> share any collected data with third parties, other apps, or services.</li>
+                    <li>Data may only be disclosed if required by Indian law or for academic review.</li>
                 </ul>
 
                 <h2>6. Account Deletion</h2>
@@ -83,6 +67,7 @@ const PrivacyPolicy = () => {
                     <li>Users may delete their account at any time</li>
                     <li>Request deletion of stored data</li>
                     <li>Upon deletion, user data will be removed from the database within a reasonable time.</li>
+                    <li>You can revoke Google Fit access at any time from your Google Account settings (<a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer" style={{ color: '#ffd700' }}>Google Account Permissions</a>).</li>
                 </ul>
 
                 <h2>7. Cookies & Tracking</h2>
@@ -104,10 +89,14 @@ const PrivacyPolicy = () => {
                     This website is created strictly for college academic submission.
                     <br />
                     It is not intended for commercial use.
+                    <br />
+                    The service will be active for approximately <b>6 months</b> for evaluation and then may be discontinued.
                 </p>
 
                 <h2>10. Changes to This Policy</h2>
                 <p>We may update this Privacy Policy if required for academic or technical reasons. Updates will be posted on this page.</p>
+                <h2>12. Data Retention</h2>
+                <p>All collected data is retained only for the duration of the academic project (approx. 6 months). After this period, the project and all associated data may be discontinued and deleted.</p>
 
                 <h2>11. Contact Information</h2>
                 <p>For any privacy-related concerns:</p>
